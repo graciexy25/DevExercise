@@ -73,7 +73,7 @@ header.header-section{
     border-radius: 25px;
     background-color: #835fa8;
     color:#fff;
-    padding: 5px 25px;
+    padding: 5px 35px!important;
     margin-right: 25px;
 }
 .navbar{
@@ -97,19 +97,11 @@ header.header-section{
     .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control{
         width: 100px;
     }
-    #buy{
-        padding: 5px 10px;
-        margin-right: 5px;
-    }
-
     .section2-con{
         padding-bottom:45px;
     }
     .section3-img{
         max-width: 80%;
-    }
-    .section3 .btn-design{
-        top: -50px!important;
     }
     .section6 .testimonial{
         margin:25px 0px!important;
@@ -144,11 +136,20 @@ header.header-section{
         .search-text{
          width:80px!important;
     }
-  
+    .section3 .btn-design{
+        margin-top: 150px!important;
+        position: relative;
+    }
     .section5-1{
         padding:50px 10px!important;
     }
-
+    #buy{
+        padding: 5px 10px!important;
+        margin-right: 5px;
+    }
+    .section5 .testimonial{
+         margin: 25px!important;
+    }
 }
 @media(max-width:768px){
     .section2 p{
@@ -162,6 +163,9 @@ header.header-section{
     }
     .section4 p{
         line-height: 18px!important;
+    }
+     .section3 .btn-design{
+        margin-top: 60px!important;
     }
 }
 /*section1*/
@@ -224,7 +228,7 @@ nav form{
      width: 100px;
     position: relative;
     margin:auto;
-    top: 150px;
+    top: 140px;
     
 }
 .section3{
@@ -305,11 +309,11 @@ nav form{
     color:#fff;
 }
 .section5 .testimonial{
-     margin: 40px 25px;
+     margin: 60px 150px 0px 25px;
 }
 .section5 .testimonial .blockqoute{
     font-style: italic;
-    font-size:35px!important;
+    font-size:30px!important;
     line-height: 45px;
     padding-bottom:25px;
 }
@@ -319,27 +323,37 @@ nav form{
 .section5 .wrapper-sec5{
     padding:20px 40px;
 }
+.section5 .wrapper-sec5 p, .section5 .wrapper-sec5 span{
+    color: #83969f;
+}
+.section5 .wrapper-sec5-bot{
+    padding-top:40px;
+}
 .section5 h5{
     font-weight: 700;
 }
 .section5 span{
     font-size:25px;
+    color: #83969f;
 }
 .section5 .wrapper-sec5 .comments{
     display: inline;
     padding-left: 25px;
+    color: #83969f;
+
 }
 .section6{
     background: url(../images/section6_14.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: 100% 100vh;
-    height: 500px;
+    height: 800px;
     overflow: hidden;
 }
 .section6 .testimonial-wrapper{
     background: #835fa8;
     color:#fff;
-    height:300px;
+    height:400px;
+    padding-top:20px;
 }
 .section6 .blockqoute{
     font-size: 24px;
