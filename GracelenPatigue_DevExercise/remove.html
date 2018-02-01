@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Remove image</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+  <p> Click X to Remove </p>
+  <div class="image">
+    <img src="https://goo.gl/kjzfbE" alt="First" class="first">
+    <button onclick="setup()">X</button>
+  </div>
+  <div class="image">
+    <img src="https://goo.gl/d2JncW" alt="Second" class="second">
+    <button  onclick="setup()">X</button>
+  </div>
+  <p id="demo"></p>
+<script>
+    function setup() {
+      // Write your code here.
+        var images=document.getElementsByClassName("image");
+        for (var i = 0; i < images.length; i++) {
+        images[i].parentNode.removeChild(images[i]);
+    }
+}
+</script>
+
+</body>
+</html>
